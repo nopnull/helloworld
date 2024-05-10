@@ -16,9 +16,9 @@ int main()
     return (0);
 }
 
-int swap(int * a, int * b)
+int swap(int *a, int *b)
 {
-    int tmp[sizeof(int) ] = {0};
+    int tmp[sizeof(int)] = {0};
     tmp[0] = *a;
     *a = *b;
     *b = tmp[0];
